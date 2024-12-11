@@ -6,6 +6,15 @@
     font-family: sans-serif
 }
 
+
+/* Estilo Logo Barra de Navegação */
+
+#logo img{
+  width: auto;
+  height: 100%;
+}
+
+
 /* Estilo para a barra de navegação */
 nav {
     background-color: #333;
@@ -214,33 +223,7 @@ nav {
   
  }
  
-    #projeto1 h2{
-      margin:20px;
-      width: 80%;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      padding: 45px;
-      background-color:; 
-    font-size:18px;
-    text-decoration:none;
-    }
-   
-    #projeto2 h2{
-    margin: 20px;
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    padding: 45px;
-    background-color: ; 
-    font-size:18px; 
-    text-decoration:none;
-    }
-
-   .projeto4{
+    #projeto1{
      border: 2px solid #4CAF50;
      width: 250px;
      height: 250px;
@@ -250,6 +233,43 @@ nav {
      justify-content:space-evenly;
      align-items:center;
      background-color: #4CAF50;
+    }
+   
+    #projeto2{
+     border: 2px solid #4CAF50;
+     width: 250px;
+     height: 250px;
+     margin-top:20px;
+     margin-bottom:20px;
+     flex-direction:row;
+     justify-content:space-evenly;
+     align-items:center;
+     background-color: #4CAF50;
+    }
+
+    #projeto3{
+      border: 2px solid #4CAF50;
+      width: 250px;
+      height: 250px;
+      margin-top:20px;
+      margin-bottom:20px;
+      flex-direction:row;
+      justify-content:space-evenly;
+      align-items:center;
+      background-color: #4CAF50;
+     }
+
+   #projeto4{
+     border: 2px solid #4CAF50;
+     width: 250px;
+     height: 250px;
+     margin-top:20px;
+     margin-bottom:20px;
+     flex-direction:row;
+     justify-content:space-evenly;
+     align-items:center;
+     background-color: #4CAF50;
+     Gap: 70px;
     }
 
   #depoimentos{
