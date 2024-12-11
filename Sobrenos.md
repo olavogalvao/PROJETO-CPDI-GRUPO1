@@ -1,1 +1,0 @@
-Este projeto foi desenvolvido no curso Programando meu Futuro, organizado pelo CPDI, com base de criar um site para conectar profissionais de diversas áreas com comunidades carentes, promovendo a troca de conhecimentos e o desenvolvimento de projetos juntos. Integrantes: Maria Eduarda Felicetti, Júlia Losankas, Olavo Galvão e Bárbara Vezaro.
