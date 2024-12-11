@@ -24,16 +24,13 @@ const questions = [
       choices: ["Aumentar a distância entre pessoas de diferentes contextos sociais e econômicos.", "Conectar pessoas de diferentes contextos sociais e econômicos, reduzindo desigualdades.", "Manter as barreiras de entrada ao mercado de trabalho"],
       answer: "Conectar pessoas de diferentes contextos sociais e econômicos, reduzindo desigualdades.",
     },
-    {
-      question: "Qual o principal objetivo da democratização do acesso a oportunidades de trabalho e colaboração?",
-      choices: ["Aumentar a distância entre pessoas de diferentes contextos sociais e econômicos.", "Conectar pessoas de diferentes contextos sociais e econômicos, reduzindo desigualdades.", "Manter as barreiras de entrada ao mercado de trabalho."],
-      answer: "Conectar pessoas de diferentes contextos sociais e econômicos, reduzindo desigualdades.",
-    },
+   
     {
       question: "Qual a principal estratégia para reduzir as desigualdades no mercado de trabalho?",
       choices: ["Aumentar o número de intermediários no processo de contratação.", "Priorizar projetos inclusivos e eliminar intermediários.", "Manter as mesmas práticas de seleção, privilegiando determinados grupos."],
       answer: "Priorizar projetos inclusivos e eliminar intermediários.",
     },
+  
     
   ];
   
