@@ -1,0 +1,82 @@
+/* Estilização global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover{
+    color: #00c4cc; /* Altere para a cor desejada */
+    border-bottom: 2px solid #00c4cc; /* Adiciona uma linha inferior */
+  }
+  
+  /* Parallax */
+  .parallax {
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .parallaxContent h1,
+  .parallaxContent p {
+    margin: 0;
+  }
+  
+  /* Outros estilos */
+  section {
+    padding: 32px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+  }
+
+  .ods {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F4F4; /* Fundo cinza claro */
+    padding: 2rem 0;
+  }
+  
+  .odsIcons {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .odsIcons img {
+    width: 80px;
+    height: auto;
+  }
