@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: a
 }
 
 /* Estilo para a barra de navegação */
@@ -33,6 +34,18 @@ nav {
     border-bottom: 2px solid #00c4cc; /* Adiciona uma linha inferior */
   }
   
+  header {
+    background-color: #4CAF50; /* Verde ou azul primário */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+
+
+
   /* Parallax */
   .parallax {
     height: 1000px;
@@ -47,6 +60,11 @@ nav {
     text-align: center;
   }
   
+  .parallaxContent {
+    background-color: #000000;
+  }
+
+
   .parallaxContent h1,
   .parallaxContent p {
     margin: 0;
@@ -80,3 +98,15 @@ nav {
     width: 80px;
     height: auto;
   }
+
+ /* FORMULÁRIO */
+  #formulario {
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #0c0f3833;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
