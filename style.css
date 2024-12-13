@@ -12,7 +12,7 @@ nav {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 16px;
   }
   
   nav ul {
@@ -112,11 +112,10 @@ nav {
   
   /* PROJETOS */
   #Projeto{
-    width:auto
-    height:auto
-    background-color:auto
-    color:
-    text-align: center 
+    width:auto;
+    height:auto;
+    background-color:auto;
+    text-align: center;
 
   }
 
