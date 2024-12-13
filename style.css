@@ -134,19 +134,29 @@ nav {
   }
   
   /* PROJETOS */
-  #projetos{
-    
-    margin: 32px auto;
-    width:auto;
-    height:auto;
+ .PROJETOS{
+  Margin: 32px: auto
+  padding: 24px;
+  border-radius: 8px;
+  text-align:center;
+ }
+ 
+ */estilos específicos de cada projeto */
+
+    #Projeto1{
+    background-color: ; 
+    font-size:18px ;
+    }
+   
+    #Projeto2{
+     background-color: ; 
+     font-size:18px; 
+    }
+
+    #Projeto3{
     background-color:auto;
-    padding: 24px
-    border-radius:8px;
-    color:auto;
-    text-align: center 
-
-  }
-
+    font-size:18px;
+   }
 
   /* Teste de colaboração de código. */
   /* Teste  2 de Git */
