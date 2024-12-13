@@ -69,16 +69,27 @@ nav {
     color: #f7f7f7;
     text-align: center;
   }
+
+  main{
+    background-color: #34665A;
+  }
   
   .parallaxContent {
-    background-color: #000000;
-   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
   }
 
 
   .parallaxContent h1,
   .parallaxContent p {
     margin: 0;
+  }
+
+  .odsOito{
+    font-size: 12px;
+    
   }
   
   /* Outros estilos */
@@ -117,15 +128,14 @@ nav {
     width: 80%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    background-color: #0c0f3833;
     padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   #formulario h2{
-    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
   }
 
   #formulario button{
@@ -138,27 +148,28 @@ nav {
   
   /* PROJETOS */
  .projetos{
-  margin: 32px;
+  Margin: 32px: auto
   padding: 24px;
   border-radius: 8px;
   text-align:center;
  }
  
+ */estilos específicos de cada projeto */
 
     #projeto1 h2{
-    background-color:#ffffff; 
+    background-color::#ffffff; 
     font-size:18px;
     text-decoration:none;
     }
    
-    #projeto2 h2{
-     background-color:#ffffff ; 
+    #Projeto2{
+     background-color: ; 
      font-size:18px; 
      text-decoration:none;
     }
 
     #projeto3 h2{
-    background-color:#ffffff;
+    background-color::#ffffff;
     font-size:18px;
    }
 
