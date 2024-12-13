@@ -145,33 +145,27 @@ nav {
   }
   
   /* PROJETOS */
- #projetos{
-  margin: 32px auto;
-  display: flex;
-  flex-direction: column;
+ .PROJETOS{
+  Margin: 32px: auto
   padding: 24px;
   border-radius: 8px;
   text-align:center;
  }
-
- #projetos h1{
-  text-align: center
-  
- }
  
-  /* estilos específicos de cada projeto */
+ */estilos específicos de cada projeto */
 
-    .projeto1{
+    #Projeto1{
     background-color: ; 
     font-size:18px ;
     }
    
-    .projeto2{
+    #Projeto2{
      background-color: ; 
      font-size:18px; 
+     text-decoration:none;
     }
 
-    .projeto3{
+    #Projeto3{
     background-color:auto;
     font-size:18px;
    }
