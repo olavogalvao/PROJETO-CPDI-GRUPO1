@@ -63,22 +63,82 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #f7f7f7;
     text-align: center;
   }
+
+  main{
+    background-color: #34665A;
+  }
   
   .parallaxContent {
-    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
   }
 
-
-  .parallaxContent h1,
+.parallaxContent h2{
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+  .parallaxContent h2,
   .parallaxContent p {
     margin: 0;
   }
+
+  .odsOito{
+   font-size: 16px;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 20px;
+  }
+  .odsOito p{
+    width: 300px;
+    margin-top: 8px;
+    justify-content: center;
   
+  }
+  .odsOito h3{
+    font-size: 16px;
+  }
+
+  .odsQuatro{
+    font-size: 16px;
+    margin-top: 100px;
+  }
+  .odsQuatro p{
+    width: 300px;
+    margin-top: 8px;
+  }
+  .odsQuatro h3{
+    font-size: 16px;
+  }
+
+  .odsDez{
+    font-size: 16px;
+    margin-top: 100px;
+    margin-right: 70px;
+  }
+  .odsDez p{
+    width: 300px;
+    margin-top: 8px;
+  }
+  .odsDez h3{
+    font-size: 16px;
+  }
+  .odsIcons{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .odsIcons img{
+    margin-bottom: 25px;
+  }
+
   /* Outros estilos */
   section {
     padding: 32px;
@@ -101,6 +161,7 @@ nav {
   .odsIcons {
     text-align: center;
     font-size: 1.2rem;
+    display: flex;
   }
   
   .odsIcons img {
@@ -114,15 +175,14 @@ nav {
     width: 80%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    background-color: #0c0f3833;
     padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   #formulario h2{
-    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
   }
 
   #formulario button{
@@ -134,102 +194,46 @@ nav {
   }
   
   /* PROJETOS */
- #projetos{
-   Margin: 200px: auto
-   width: 100%;
-   padding-top: 40px; 
-   Border: 50px;;
-   border-style:;
-   border-color:green;
-   border-radius: 8px;
-   text-align:center;
-   box-sizing:border-box;
-   Background-color:;
-   display: flex;
-  }
-    .projetos{
-    display: flex;
-    flex-direction:row;
-    margin bottom:50px;
-    background-color:; 
-    font-size:17px;
-    text-decoration:none;
-    }
 
-   .projeto1 h2{
+.projetos{
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 24px;
+
+}
+  #projetos{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
     display: flex;
-    flex-direction:row;
-    margin-top:50px;
-    margin bottom:50px;
-    background-color:; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 24px;
+  
+ }
+ 
+    #projeto1 h2{
+    
+    background-color::#ffffff; 
     font-size:18px;
     text-decoration:none;
     }
    
-    .projeto2 h2{
-      display: flex;
-      flex-direction:row;
-      margin-top:50px ;
-      margin bottom:50px;
-      background-color:; 
-      font-size:18px; 
-      text-decoration:none;
-     }
- 
-     .projeto3 h2{
-      display: flex;
-      flex-direction:row;
-      margin-top: 50px;
-      margin bottom:50px;
-      background-color::;
-      font-size:18px;
-      text-decoration:none;
+    #projeto2 h2{
+     background-color:#ffffff ; 
+     font-size:18px; 
+     text-decoration:none;
     }
 
-    .projeto4 h2{
-      display: flex;
-      flex-direction:row;
-      margin-top: 50px;
-      margin bottom:50px;
-      background-color::;
-      font-size:18px;
-      text-decoration:none;
-    }
-    .projeto div {
-      padding:30px
-    }
-
-    .projeto span{
-      font-size:medium;
-      color:;
-    }
-
-    .projeto h1{
-      font-size:18px
-    }
-
-    .projeto a{
-    color: var(--corBranco);
-    background-color: var(--roxoMedio);
-    padding: 10px 20px;
-    border: 2px solid var(--roxoEscuro);
-    border-radius: 30px;
-    }
-
-    .projeto img{
-      width: 45%;
-      background-color: var(--roxoEscuro);
-    }
-
-    .fundodesfocado{
-      padding: 25px;
-      background-color: #251C31;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      color: var(--corBranco)
-
-  
-
+    #projeto3 h2{
+    background-color::#ffffff;
+    font-size:18px;
+    text-decoration:none;
+   }
 
   /* Teste de colaboração de código. */
   /* Teste  2 de Git */
