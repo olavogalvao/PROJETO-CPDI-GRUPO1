@@ -81,17 +81,64 @@ nav {
     width: 100%;
   }
 
-
-  .parallaxContent h1,
+.parallaxContent h2{
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+  .parallaxContent h2,
   .parallaxContent p {
     margin: 0;
   }
 
   .odsOito{
-    font-size: 12px;
-    
+   font-size: 16px;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 20px;
   }
+  .odsOito p{
+    width: 300px;
+    margin-top: 8px;
+    justify-content: center;
   
+  }
+  .odsOito h3{
+    font-size: 16px;
+  }
+
+  .odsQuatro{
+    font-size: 16px;
+    margin-top: 100px;
+  }
+  .odsQuatro p{
+    width: 300px;
+    margin-top: 8px;
+  }
+  .odsQuatro h3{
+    font-size: 16px;
+  }
+
+  .odsDez{
+    font-size: 16px;
+    margin-top: 100px;
+    margin-right: 70px;
+  }
+  .odsDez p{
+    width: 300px;
+    margin-top: 8px;
+  }
+  .odsDez h3{
+    font-size: 16px;
+  }
+  .odsIcons{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .odsIcons img{
+    margin-bottom: 25px;
+  }
+
   /* Outros estilos */
   section {
     padding: 32px;
@@ -148,7 +195,7 @@ nav {
   
   /* PROJETOS */
  .projetos{
-  Margin: 32px: auto
+  margin: 32px auto;
   padding: 24px;
   border-radius: 8px;
   text-align:center;
@@ -157,7 +204,7 @@ nav {
  */estilos específicos de cada projeto */
 
     #projeto1 h2{
-    background-color::#ffffff; 
+    background-color:#ffffff; 
     font-size:18px;
     text-decoration:none;
     }
@@ -169,7 +216,7 @@ nav {
     }
 
     #projeto3 h2{
-    background-color::#ffffff;
+    background-color:#ffffff;
     font-size:18px;
    }
 
