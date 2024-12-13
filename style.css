@@ -111,11 +111,15 @@ nav {
   }
   
   /* PROJETOS */
-  #Projeto{
-    width:auto
-    height:auto
-    background-color:auto
-    color:
+  #projetos{
+    margin: 32px auto;
+    width:auto;
+    max-width:auto;
+    height:auto;
+    background-color:auto;
+    padding: 24px
+    border-radius:8px;
+    color:auto;
     text-align: center 
 
   }
