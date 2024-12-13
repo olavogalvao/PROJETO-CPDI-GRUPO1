@@ -203,7 +203,8 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 24px;
-  Justify content: space-evenly;
+  Justify-content: space-evenly;
+  color: #ffffff;
 
 }
   #projetos{
@@ -214,6 +215,7 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 24px;
+    color:#ffffff
   
  }
  
@@ -225,7 +227,7 @@ nav {
       flex-direction: column;
       flex-wrap: wrap;
       padding: 24px;
-      background-color:#ffffff; 
+      background-color:; 
     font-size:18px;
     text-decoration:none;
     }
@@ -238,7 +240,8 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 24px;
-     background-color:#ffffff ; 
+  
+     background-color: ; 
      font-size:18px; 
      text-decoration:none;
     }
