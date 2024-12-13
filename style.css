@@ -194,68 +194,66 @@ nav {
   }
   
   /* PROJETOS */
-
-.projetos{
-  margin:10px;
-  width: 80%;
-  height: 100vh;
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  padding: 45px;
-  Justify-content: space-around;
-  color: #ffffff;
-  font-size: 18px;
-}
+  
   #projetos{
-    margin: 20px;
-    width: 80%;
+    width: 100%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 45px;
-    color:#ffffff
+    color:#ffffff;
+    padding: 30px;
   }
- 
-    #projeto1 h2{
-      margin:20px;
-      width: 80%;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      padding: 45px;
-      background-color:; 
-      font-size:18px;
-      text-decoration:none;
+
+  .projetoscontainer{
+    display: flex;
+    flex-direction:row;
+    Justify-content:space-evenly;
+    flex-wrap: wrap;
+    color: #ffffff;
+  }
+
+    .projeto1{
+      border: 2px solid #4CAF50;
+      width: 250px;
+      height: 250px;
+      margin-top:20px;
+      margin-bottom:20px;
+      flex-direction:row;
+      justify-content:space-evenly;
+      align-items:center;
     }
    
-  #projeto2 h2{
-     margin: 20px;
-     width: 80%;
-     height: 100vh;
-     display: flex;
-     flex-direction:column;
-     flex-wrap: wrap;
-     padding: 45px;
-     background-color: ; 
-     font-size:18px; 
-     text-decoration:none;
-  }
+    .projeto2{
+      border: 2px solid #4CAF50;
+      width: 250px;
+      height: 250px;
+      margin-top:20px;
+      margin-bottom:20px;  
+      flex-direction:row;
+      justify-content:space-evenly;
+      align-items:center;
+    
+    }
 
-  #projeto3 h2{
-    margin: 20px;
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    padding: 45px;
-    background-color:#ffffff;
-    font-size:18px;
-    text-decoration:none;
-   }
+   .projeto3{
+     border: 2px solid #4CAF50;
+     width:250px;
+     height:250px;
+     margin-top:20px;
+     margin-bottom:20px;
+     flex-direction:row;
+      justify-content:space-evenly;
+      align-items:center;
+    }
+
+   .projeto4{
+     border: 2px solid #4CAF50;
+     width: 250px;
+     height: 250px;
+     margin-top:20px;
+     margin-bottom:20px;
+     flex-direction:row;
+     justify-content:space-evenly;
+     align-items:center;
+    }
 
   #depoimentos{
     color:#ffffff
