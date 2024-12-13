@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: a
+    font-family: sans-serif
 }
 
 /* Estilo para a barra de navegação */
@@ -38,13 +38,22 @@ nav {
     background-color: #4CAF50; /* Verde ou azul primário */
     color: white;
     text-align: center;
-    padding: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: bold;
   }
+
+  header button{
+
+    background-color: #ffff00;
+    width: 50%;
+    height: 54px;
+    margin-top: 16px;
+    color: #000000;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
   
-
-
 
   /* Parallax */
   .parallax {
@@ -56,7 +65,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #f7f7f7;
     text-align: center;
   }
   
@@ -101,13 +110,27 @@ nav {
 
  /* FORMULÁRIO */
   #formulario {
-    margin: 32px auto;
+    margin: 0 auto;
     width: 80%;
-    max-width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #0c0f3833;
     padding: 24px;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #formulario h2{
+    align-items: center;
+  }
+
+  #formulario button{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
   }
   
   /* PROJETOS */
