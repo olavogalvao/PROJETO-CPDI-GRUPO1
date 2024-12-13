@@ -112,17 +112,33 @@ nav {
   
   /* PROJETOS */
   #projetos{
-    margin: 32px auto;
+
+    margin: 60px auto;
     width:auto;
     max-width:auto;
     height:auto;
     background-color:auto;
-    padding: 24px
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:;
+    padding: 24px;
     border-radius:8px;
+    box-shadow: none;
     color:auto;
-    text-align: center 
-
+    text-align: center; 
+    font-size: auto;
+    text-decoration: dashed;
+    justify-content: space-evenly;
+    padding: 4px;
   }
+
+  
+
+
+  
 
 
   /* Teste de colaboração de código. */
