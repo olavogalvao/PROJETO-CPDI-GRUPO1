@@ -134,30 +134,102 @@ nav {
   }
   
   /* PROJETOS */
- .projetos{
-  Margin: 32px: auto
-  padding: 24px;
-  border-radius: 8px;
-  text-align:center;
- }
- 
+ #projetos{
+   Margin: 200px: auto
+   width: 100%;
+   padding-top: 40px; 
+   Border: 50px;;
+   border-style:;
+   border-color:green;
+   border-radius: 8px;
+   text-align:center;
+   box-sizing:border-box;
+   Background-color:;
+   display: flex;
+  }
+    .projetos{
+    display: flex;
+    flex-direction:row;
+    margin bottom:50px;
+    background-color:; 
+    font-size:17px;
+    text-decoration:none;
+    }
 
-    #projeto1 h2{
-    background-color::#ffffff; 
+   .projeto1 h2{
+    display: flex;
+    flex-direction:row;
+    margin-top:50px;
+    margin bottom:50px;
+    background-color:; 
     font-size:18px;
     text-decoration:none;
     }
    
-    #projeto2 h2{
-     background-color:#ffffff ; 
-     font-size:18px; 
-     text-decoration:none;
+    .projeto2 h2{
+      display: flex;
+      flex-direction:row;
+      margin-top:50px ;
+      margin bottom:50px;
+      background-color:; 
+      font-size:18px; 
+      text-decoration:none;
+     }
+ 
+     .projeto3 h2{
+      display: flex;
+      flex-direction:row;
+      margin-top: 50px;
+      margin bottom:50px;
+      background-color::;
+      font-size:18px;
+      text-decoration:none;
     }
 
-    #projeto3 h2{
-    background-color::#ffffff;
-    font-size:18px;
-   }
+    .projeto4 h2{
+      display: flex;
+      flex-direction:row;
+      margin-top: 50px;
+      margin bottom:50px;
+      background-color::;
+      font-size:18px;
+      text-decoration:none;
+    }
+    .projeto div {
+      padding:30px
+    }
+
+    .projeto span{
+      font-size:medium;
+      color:;
+    }
+
+    .projeto h1{
+      font-size:18px
+    }
+
+    .projeto a{
+    color: var(--corBranco);
+    background-color: var(--roxoMedio);
+    padding: 10px 20px;
+    border: 2px solid var(--roxoEscuro);
+    border-radius: 30px;
+    }
+
+    .projeto img{
+      width: 45%;
+      background-color: var(--roxoEscuro);
+    }
+
+    .fundodesfocado{
+      padding: 25px;
+      background-color: #251C31;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      color: var(--corBranco)
+
+  
+
 
   /* Teste de colaboração de código. */
   /* Teste  2 de Git */
