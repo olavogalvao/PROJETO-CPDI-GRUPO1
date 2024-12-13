@@ -227,7 +227,7 @@ nav {
       flex-direction: column;
       flex-wrap: wrap;
       padding: 45px;
-      background-color:; 
+      background-color: #ffffff; 
     font-size:18px;
     text-decoration:none;
     }
@@ -240,7 +240,7 @@ nav {
     flex-direction:column;
     flex-wrap: wrap;
     padding: 45px;
-    background-color: ; 
+    background-color: #ffffff ; 
     font-size:18px; 
     text-decoration:none;
     }
