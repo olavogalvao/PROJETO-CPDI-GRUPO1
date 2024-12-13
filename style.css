@@ -196,64 +196,63 @@ nav {
   /* PROJETOS */
 
 .projetos{
-  margin: 0 auto;
+  margin:10px;
   width: 80%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   flex-wrap: wrap;
-  padding: 24px;
-  Justify-content: space-evenly;
+  padding: 45px;
+  Justify-content: space-around;
   color: #ffffff;
 
 }
   #projetos{
-    margin: 0 auto;
+    margin: 20px;
     width: 80%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 24px;
+    padding: 45px;
     color:#ffffff
   
  }
  
     #projeto1 h2{
-      margin: 0 auto;
+      margin:20px;
       width: 80%;
       height: 100vh;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      padding: 24px;
+      padding: 45px;
       background-color:; 
     font-size:18px;
     text-decoration:none;
     }
    
     #projeto2 h2{
-    margin: 0 auto;
+    margin: 20px;
     width: 80%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
-    padding: 24px;
-  
-     background-color: ; 
-     font-size:18px; 
-     text-decoration:none;
+    padding: 45px;
+    background-color: ; 
+    font-size:18px; 
+    text-decoration:none;
     }
 
     #projeto3 h2{
-    margin: 0 auto;
+    margin: 20px;
     width: 80%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
-    padding: 24px;
+    padding: 45px;
     background-color:#ffffff;
     font-size:18px;
     text-decoration:none;
