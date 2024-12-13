@@ -203,6 +203,7 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 24px;
+  Justify content: space-evenly;
 
 }
   #projetos{
@@ -217,23 +218,42 @@ nav {
  }
  
     #projeto1 h2{
-    
-    background-color::#ffffff; 
+      margin: 0 auto;
+      width: 80%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 24px;
+      background-color:#ffffff; 
     font-size:18px;
     text-decoration:none;
     }
    
     #projeto2 h2{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 24px;
      background-color:#ffffff ; 
      font-size:18px; 
      text-decoration:none;
     }
 
     #projeto3 h2{
-    background-color::#ffffff;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 24px;
+    background-color:#ffffff;
     font-size:18px;
     text-decoration:none;
    }
 
-  /* Teste de colaboração de código. */
-  /* Teste  2 de Git */
+  
