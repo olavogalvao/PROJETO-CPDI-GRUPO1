@@ -21,7 +21,7 @@ nav {
   }
   
   nav li {
-    margin: 0 1rem;
+    margin:  0 1rem;
   }
   
   nav a {
@@ -95,7 +95,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #F4F4F4; /* Fundo cinza claro */
-    padding: 2rem 0;
+    padding: 32px 0;
   }
   
   .odsIcons {
