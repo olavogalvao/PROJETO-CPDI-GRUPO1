@@ -265,8 +265,23 @@ nav {
 
   #depoimentos{
     color:#ffffff
+    
+  
   }
 
   #contato {
     color:#ffffff
+  }
+
+  .depoimentoscontainer{
+    display: flex;
+    gap: 15px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .itens{
+    width: 200px;
+    height: 200px;
+    
   }
