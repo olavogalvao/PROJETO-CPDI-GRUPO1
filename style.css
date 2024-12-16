@@ -6,6 +6,15 @@
     font-family: sans-serif
 }
 
+
+/* Estilo Logo Barra de Navegação */
+
+#logo img{
+  width: auto;
+  height: 100%;
+}
+
+
 /* Estilo para a barra de navegação */
 nav {
     background-color: #333;
