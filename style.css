@@ -217,8 +217,8 @@ header button:hover {
 .projeto2,
 .projeto3,
 .projeto4 {
-  width: 300px;
-  height: 550px;
+  width: 400px;
+  height: 650px;
   margin-top: 100px;
   background-color: #4caf50;
   border-radius: 8px;
@@ -362,18 +362,61 @@ footer a{
   letter-spacing: 5px;
 }
 
-/* Responsividade */
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+  .projetosContainer .projeto1,
+  .projetosContainer .projeto2,
+  .projetosContainer .projeto3,
+  .projetosContainer .projeto4 {
+    width: 250px; /* Ajusta a largura dos projetos */
+    height: auto; /* Altura automática para melhor adaptação */
+    padding: 15px;
+  }
+
+  .projetosContainer {
+    gap: 15px; /* Reduz o espaçamento entre os projetos */
+    padding: 20px; /* Ajusta o padding geral */
+  }
+}
+
 @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    gap: 16px;
+  .projetosContainer .projeto1,
+  .projetosContainer .projeto2,
+  .projetosContainer .projeto3,
+  .projetosContainer .projeto4 {
+    width: 200px; /* Ajusta ainda mais a largura */
+    padding: 10px;
   }
 
-  .projetoscontainer {
-    grid-template-columns: 1fr;
+  .projetosContainer a {
+    width: 120px; /* Reduz a largura dos links */
+    height: 40px; /* Altura dos links ajustada */
+    font-size: 12px; /* Tamanho de fonte menor */
   }
 
-  .depoimentoscontainer {
-    flex-direction: column;
+  .projetosContainer {
+    flex-direction: column; /* Empilha os projetos verticalmente */
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projetosContainer .projeto1,
+  .projetosContainer .projeto2,
+  .projetosContainer .projeto3,
+  .projetosContainer .projeto4 {
+    width: 100%; /* Ocupa toda a largura da tela */
+    padding: 8px;
+  }
+
+  .projetosContainer a {
+    width: 100%; /* Links ocupam a largura total do projeto */
+    height: 35px; /* Altura menor para links */
+    font-size: 10px; /* Fonte menor ainda */
+  }
+
+  .projetosContainer p {
+    font-size: 12px; /* Ajusta o texto para telas menores */
+    margin-bottom: 20px;
   }
 }
