@@ -1,296 +1,345 @@
 /* Estilização global */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
-
-/* Estilo Logo Barra de Navegação */
-
-#logo img{
-  width: auto;
-  height: 100%;
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
 }
-
 
 /* Estilo para a barra de navegação */
 nav {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav li {
-    margin:  0 1rem;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white;
-  }
-
-  nav a:hover{
-    color: #00c4cc; /* Altere para a cor desejada */
-    border-bottom: 2px solid #00c4cc; /* Adiciona uma linha inferior */
-  }
-  
-  header {
-    background-color: #4CAF50; /* Verde ou azul primário */
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  header button{
-
-    background-color: #ffff00;
-    width: 50%;
-    height: 54px;
-    margin-top: 16px;
-    color: #000000;
-    border-radius: 30px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-
-  /* Parallax */
-  .parallax {
-    height: 1000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #f7f7f7;
-    text-align: center;
-  }
-
-  main{
-    background-color: #34665A;
-  }
-  
-  .parallaxContent {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-  }
-
-.parallaxContent h2{
-  margin-bottom: 32px;
-  margin-top: 0;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-  .parallaxContent h2,
-  .parallaxContent p {
-    margin: 0;
-  }
 
-  .odsOito{
-   font-size: 16px;
-    margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 20px;
-  }
-  .odsOito p{
-    width: 300px;
-    margin-top: 8px;
-    justify-content: center;
-  
-  }
-  .odsOito h3{
-    font-size: 16px;
-  }
+nav .logo img {
+  height: 40px;
+}
 
-  .odsQuatro{
-    font-size: 16px;
-    margin-top: 100px;
-  }
-  .odsQuatro p{
-    width: 300px;
-    margin-top: 8px;
-  }
-  .odsQuatro h3{
-    font-size: 16px;
-  }
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
 
-  .odsDez{
-    font-size: 16px;
-    margin-top: 100px;
-    margin-right: 70px;
-  }
-  .odsDez p{
-    width: 300px;
-    margin-top: 8px;
-  }
-  .odsDez h3{
-    font-size: 16px;
-  }
-  .odsIcons{
-    justify-content: space-between;
-    align-items: center;
-  }
+nav li {
+  position: relative;
+}
 
-  .odsIcons img{
-    margin-bottom: 25px;
-  }
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  transition: color 0.3s ease;
+}
 
-  /* Outros estilos */
-  section {
-    padding: 32px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 16px;
-  }
+nav a:hover {
+  color: #00c4cc;
+  border-bottom: 2px solid #00c4cc;
+}
 
-  .ods {
-    display: flex;
-    justify-content: space-around;
-    background-color: #F4F4F4; /* Fundo cinza claro */
-    padding: 32px 0;
-  }
-  
-  .odsIcons {
-    text-align: center;
-    font-size: 1.2rem;
-    display: flex;
-  }
-  
-  .odsIcons img {
-    width: 80px;
-    height: auto;
-  }
+/* Parallax Header */
+header {
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 
- /* FORMULÁRIO */
-  #formulario {
-    margin: 0 auto;
-    width: 80%;
-    height: 100vh;
-    display: flex;
+
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header button {
+  background-color: #00c4cc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+header button:hover {
+  background-color: #008f99;
+}
+
+.parallaxContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+
+#ods {
+  display: flex;
+  justify-content: space-around;
+}
+
+#ods h2 {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.odsOito {
+  font-size: 16px;
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+.odsOito p {
+  width: 300px;
+  margin-top: 8px;
+  justify-content: center;
+
+}
+
+.odsOito h3 {
+  font-size: 16px;
+}
+
+.odsQuatro {
+  font-size: 16px;
+  margin-top: 100px;
+}
+
+.odsQuatro p {
+  width: 300px;
+  margin-top: 8px;
+}
+
+.odsQuatro h3 {
+  font-size: 16px;
+}
+
+.odsDez {
+  font-size: 16px;
+  margin-top: 100px;
+  margin-right: 70px;
+}
+
+.odsDez p {
+  width: 300px;
+  margin-top: 8px;
+}
+
+.odsDez h3 {
+  font-size: 16px;
+}
+
+.odsIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.odsIcons img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 25px;
+}
+
+/* Sessão de Projetos */
+#projetos {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#projetos h1 {
+  margin-bottom: 32px;
+  color: #333;
+}
+
+.projetoscontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.projetoscontainer .projeto1,
+.projeto2,
+.projeto3,
+.projeto4 {
+  background-color: #4caf50;
+  border-radius: 8px;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.projetoscontainer .projeto1:hover,
+.projeto2:hover,
+.projeto3:hover,
+.projeto4:hover {
+  transform: translateY(-10px);
+}
+
+/* Formulário */
+#formulario {
+  background-color: #f7f7f7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#formulario h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#formulario form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#formulario input,
+#formulario textarea,
+#formulario button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+#formulario button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#formulario button:hover {
+  background-color: #388e3c;
+}
+
+/* Depoimentos */
+#depoimentos {
+  padding: 50px;
+  background-color: #34665a;
+  color: white;
+  text-align: center;
+}
+
+.depoimentoscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.itens {
+  background-color: #4caf50;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Contato */
+#contato {
+  padding: 50px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+#contato h2{
+  margin-bottom: 30px;
+}
+
+#contato form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#contato input,
+#contato textarea,
+#contato button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#contato button {
+  background-color: #00c4cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contato button:hover {
+  background-color: #008f99;
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav ul {
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 24px;
-    color:#ffffff
+    gap: 16px;
   }
 
-  #formulario h2{
-    text-align: center;
-    margin-bottom: 32px;
-    color:#ffffff;
+  .projetoscontainer {
+    grid-template-columns: 1fr;
   }
 
-  #formulario button{
-    align-items: center;
-    margin: 0 auto;
-    text-align:center;
-    border-radius: 6px;
-    cursor: pointer;
+  .depoimentoscontainer {
+    flex-direction: column;
   }
-  
-  /* PROJETOS */
-  
-  #projetos{
-    width: 100%;
-    height: 100vh;
-    color:#ffffff;
-    padding: 30px;
-  }
-
-  .projetoscontainer{
-    display: flex;
-    flex-direction:row;
-    Justify-content:space-evenly;
-    flex-wrap: wrap;
-    padding: 45px;
-    color:#ffffff
-  
- }
- 
-    #projeto1{
-     border: 2px solid #4CAF50;
-     width: 250px;
-     height: 250px;
-     margin-top:20px;
-     margin-bottom:20px;
-     flex-direction:row;
-     justify-content:space-evenly;
-     align-items:center;
-     background-color: #4CAF50;
-    }
-   
-    #projeto2{
-     border: 2px solid #4CAF50;
-     width: 250px;
-     height: 250px;
-     margin-top:20px;
-     margin-bottom:20px;
-     flex-direction:row;
-     justify-content:space-evenly;
-     align-items:center;
-     background-color: #4CAF50;
-    }
-
-    #projeto3{
-      border: 2px solid #4CAF50;
-      width: 250px;
-      height: 250px;
-      margin-top:20px;
-      margin-bottom:20px;
-      flex-direction:row;
-      justify-content:space-evenly;
-      align-items:center;
-      background-color: #4CAF50;
-     }
-
-   #projeto4{
-     border: 2px solid #4CAF50;
-     width: 250px;
-     height: 250px;
-     margin-top:20px;
-     margin-bottom:20px;
-     flex-direction:row;
-     justify-content:space-evenly;
-     align-items:center;
-     background-color: #4CAF50;
-     Gap: 70px;
-    }
-
-  #depoimentos{
-    color:#ffffff
-    
-  
-  }
-
-  #contato {
-    color:#ffffff
-  }
-
-  .depoimentoscontainer{
-    display: flex;
-    gap: 15px;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: stretch;
-  }
-  .itens{
-    width: 200px;
-    height: 200px;
-    
-  }
+}
