@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nós</title>
 </head>
+
+
 <body>
   <h1>Sobre nós</h1>
   <h3>Este projeto foi desenvolvido no curso Programando meu Futuro, organizado pelo CPDI, com base de criar um site para conectar profissionais de diversas áreas com comunidades carentes, promovendo a troca de conhecimentos e o desenvolvimento de projetos juntos.
@@ -13,4 +15,15 @@
     Integrantes:
     <br><br>Maria Eduarda Felicetti, Júlia Losankas, Olavo Galvão e Bárbara Vezaro.</h3>  
 </body>
+
+<script>
+    let listaCores = ["blue", "green", "pink"];
+    document.body.style.backgroundColor = listaCores[0 , 1 , 2];
+
+    function trocarcores(){
+        document.body.style.backgroundColor = listaCores[Math.floor(3 * Math.random())]
+    }
+    setInterval(trocarcores ,2000)
+
+</script>
 </html>
