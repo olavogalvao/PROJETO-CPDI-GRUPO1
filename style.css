@@ -215,9 +215,9 @@ header button:hover {
 .projeto2,
 .projeto3,
 .projeto4 {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 650px;
-  margin-top: 100px;
   background-color: #4caf50;
   border-radius: 8px;
   color: white;
@@ -225,11 +225,9 @@ header button:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   text-align: center;
-  justify-content: space-between;
+  display: flex;
   flex-direction: column;
- 
   justify-content: space-between;
-  
 }
 
 .projetosContainer .projeto1:hover,
