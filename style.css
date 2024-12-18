@@ -42,22 +42,20 @@ nav ul {
   gap: 24px;
 }
 
-nav li {
-  position: relative;
-}
-
-nav a {
+nav li a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   padding: 8px;
   transition: color 0.3s ease;
 }
 
-nav a:hover {
+nav li a:hover {
   color: #00c4cc;
   border-bottom: 2px solid #00c4cc;
 }
+
+
 
 /* Parallax Header */
 header {
@@ -200,13 +198,13 @@ header button:hover {
   justify-items: center;
 }
 
-.projetosContainer p{
+.projetosContainer p {
   font-size: 14px;
   margin-bottom: 15px;
   text-align: center;
 }
 
-.projetosContainer a{
+.projetosContainer a {
   color: #fff;
   border: 8px solid #34665A;
   border-radius: 15px;
@@ -228,8 +226,10 @@ header button:hover {
   transition: transform 0.3s ease;
   text-align: center;
   justify-content: space-between;
-  flex-direction: column; /* Organiza o conteúdo verticalmente */
-  justify-content: space-between; /* Espaça o conteúdo interno */
+  flex-direction: column;
+ 
+  justify-content: space-between;
+  
 }
 
 .projetosContainer .projeto1:hover,
@@ -315,7 +315,7 @@ header button:hover {
   background-color: #f7f7f7;
 }
 
-#contato h2{
+#contato h2 {
   margin-bottom: 30px;
 }
 
@@ -356,67 +356,18 @@ footer {
   font-size: 14px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #fff;
   letter-spacing: 5px;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 1024px) {
-  .projetosContainer .projeto1,
-  .projetosContainer .projeto2,
-  .projetosContainer .projeto3,
-  .projetosContainer .projeto4 {
-    width: 250px; /* Ajusta a largura dos projetos */
-    height: auto; /* Altura automática para melhor adaptação */
-    padding: 15px;
-  }
+  
 
-  .projetosContainer {
-    gap: 15px; /* Reduz o espaçamento entre os projetos */
-    padding: 20px; /* Ajusta o padding geral */
-  }
-}
 
-@media (max-width: 768px) {
-  .projetosContainer .projeto1,
-  .projetosContainer .projeto2,
-  .projetosContainer .projeto3,
-  .projetosContainer .projeto4 {
-    width: 200px; /* Ajusta ainda mais a largura */
-    padding: 10px;
-  }
+ 
 
-  .projetosContainer a {
-    width: 120px; /* Reduz a largura dos links */
-    height: 40px; /* Altura dos links ajustada */
-    font-size: 12px; /* Tamanho de fonte menor */
-  }
+  
+  
 
-  .projetosContainer {
-    flex-direction: column; /* Empilha os projetos verticalmente */
-    gap: 10px;
-  }
-}
 
-@media (max-width: 480px) {
-  .projetosContainer .projeto1,
-  .projetosContainer .projeto2,
-  .projetosContainer .projeto3,
-  .projetosContainer .projeto4 {
-    width: 100%; /* Ocupa toda a largura da tela */
-    padding: 8px;
-  }
-
-  .projetosContainer a {
-    width: 100%; /* Links ocupam a largura total do projeto */
-    height: 35px; /* Altura menor para links */
-    font-size: 10px; /* Fonte menor ainda */
-  }
-
-  .projetosContainer p {
-    font-size: 12px; /* Ajusta o texto para telas menores */
-    margin-bottom: 20px;
-  }
-}
